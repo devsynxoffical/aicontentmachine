@@ -1,0 +1,86 @@
+export const comparisonTable = [
+  {
+    feature: "AI Credits",
+    free: "20 / Month",
+    pro: "Unlimited",
+    business: "Unlimited",
+  },
+  {
+    feature: "Social Media Posts",
+    free: true,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Blog Writer",
+    free: true,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Website Copy",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Product Descriptions",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Email Campaigns",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Ad Copy Generator",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "AI Image Generator",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Content Calendar",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Analytics Dashboard",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "Team Members",
+    free: false,
+    pro: false,
+    business: true,
+  },
+  {
+    feature: "API Access",
+    free: false,
+    pro: false,
+    business: true,
+  },
+  {
+    feature: "Priority Support",
+    free: false,
+    pro: true,
+    business: true,
+  },
+  {
+    feature: "White Label",
+    free: false,
+    pro: false,
+    business: true,
+  },
+];
