@@ -4,6 +4,9 @@ import FadeLeft from "../animations/FadeLeft";
 import FadeRight from "../animations/FadeRight";
 import MotionButton from "../animations/MotionButton";
 
+// Import Dashboard Screenshot
+import dashboardSS from "../../assets/images/dashboard_ss.png";
+
 export default function Hero() {
   return (
     <section className="bg-[#F4F6F8] py-20">
@@ -39,11 +42,15 @@ export default function Hero() {
 
         </FadeLeft>
 
-        {/* Right Mockup */}
+        {/* Right Dashboard Preview */}
         <FadeRight className="flex-1">
 
-          <div className="bg-white shadow-md rounded-xl h-80 flex items-center justify-center text-[#6B7280]">
-            Dashboard Preview Image
+          <div className="rounded-2xl overflow-hidden shadow-[0_25px_60px_rgba(0,0,0,0.15)] border border-gray-200 bg-white">
+            <img
+              src={dashboardSS}
+              alt="AI Content Machine Dashboard"
+              className="w-full h-auto object-cover"
+            />
           </div>
 
         </FadeRight>
